@@ -15,7 +15,7 @@ function App() {
   setInput('');
 
   try {
-    const res = await fetch('https://chatbot-backend.andriskovalevsk.repl.co/chat', {
+    const res = await fetch('https://77991abc-20c2-4058-8caa-6680cb50f05c-00-2b4lb4pzv6bp1.riker.replit.dev/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: input })
